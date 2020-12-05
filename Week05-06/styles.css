@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+ 
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section, summary,
+   time, mark, audio, video {
+       margin: 0;
+       padding: 0;
+       border: 0;
+       outline: 0;
+       font-size: 100%;
+       font: inherit;
+       vertical-align: baseline;
+       font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+       display: block;
+   }
+   body {
+       line-height: 1;
+   }
+   ol, ul {
+       list-style: none;
+   }
+   blockquote, q {
+       quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+       content: ’’;
+       content: none;
+   }
+    
+   /* remember to highlight inserts somehow! */
+   ins {
+       text-decoration: none;
+   }
+   del {
+       text-decoration: line-through;
+   }
+    
+   table {
+       border-collapse: collapse;
+       border-spacing: 0;
+   }
+/* Styles */
+/* Header */
+   .container {
+    padding: 15px 15px 15px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 51, 133, 0.8);
+
+   }
+
+   a {
+       text-decoration: none;
+   }
+   .logo_slot {
+    height: 3rem;
+    opacity: .85;
+}
+
+/*Section navigation*/
+
+.nav_section {
+    background-color: #e0deda;
+    color: #000;
+
+}
+.center-table-nav {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+ul {
+    margin: 1.5em 1.5em 1.5em 1.5em;
+}
+.center-table-nav li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #000;
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+    transition: none;
+
+}
+.center-table-nav li a {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    background: none;
+    padding-bottom: 1.125rem;
+    
+}
+.center-table-nav li a {
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 2em;
+}
+.BCS {
+    font-size: 1.4em !important;
+}
+.FS {
+    border-color: #F26D20;
+}
+.CS {
+    border-color: #F32120;
+}
+.CES {
+    border-color: #9EA903;
+}
+.BCS {
+    border-color: #0B00FF;
+}
+.section-wrapper {
+    display: table;
+    margin: 0 auto;
+}
+input, label {
+    display: block;
+}
+label {
+    padding-bottom: 10px;
+}
+input {
+    width: 370px;
+    margin-bottom: 2em;
+    height: 25px;
+    border: 2px black solid;
+}
+.form-wrapper {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.form-wrapper h1 {
+    font-size: 2em;
+    font-weight: 900;
+
+    padding-bottom: 30px;
+}
+.form-wrapper label {
+
+    font-size: 20px;
+    font-weight: 900;
+} 
+.btn {
+    background-color: whitesmoke; /* Green */
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+footer {
+    background-color: #013386;
+    margin: auto;
+    height: auto;
+}
+.footer-section {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-section p {
+    color: #fff;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:320px) {
+    input {
+        width: 300px;
+    }
+
+}

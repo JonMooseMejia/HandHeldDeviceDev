@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+ 
+    <meta charset="utf-8">
+    <title>Mobile First Responsive Navigation</title>
+    <meta name="description" content="CSS only mobile first navigation">
+    <meta name="author" content="Jonathan Mejia">
+    <!--Mobile specific meta goodness :)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 
+    <!--css-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header style="background-image: url('assets/econnect-header-bg-1600x256.jpg')">
+            <div class="container">
+                <div>
+                    <a href="https://www.dcccd.edu/"><img class="logo_slot" src="assets/dallascollegelogo.png" alt="Dallas College"></a>
+                </div>
+            </div>
+        </header>
+
+        <section class="nav_section">
+
+            <div class="nav_container">
+                <nav class="nav">
+                    <div class="center-table-nav">
+                        <ul>
+                            <li><a class="FS" href="#">Future Student</a></li>
+                            <li><a class="CS" href="#">Credit Student</a></li>
+                            <li><a class="CES" href="#">CE Student</a></li>
+                            <li><a class="BCS" href="#">Browsable Class Schedule</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+
+        <section>
+            <div  class="section-wrapper">
+            <div class="form-wrapper">
+                
+                <form>
+                    <div>
+                    <h1>LOGIN</h1>
+                </div>
+                    <div class="form-section">
+                            <label>Student/Employee/Retireee ID:</label>
+                            <input >
+
+                    </div>
+                   <div class="form-section">
+                    <label>Password:</label>
+                    <input>
+                    <button class="btn" type="button" onClick="Function()">Submit</button>
+                   </div>
+                </form>
+            </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-section">
+                <p>Created by Jonathan Mejia.</p>
+                <p>For educational purposes.</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script>
+    function Function() {
+        alert("Hello! This is a dummy page so no information was recorded!");
+    }
+</script>
+
+
+</html>
